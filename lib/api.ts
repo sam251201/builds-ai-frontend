@@ -437,6 +437,7 @@ export function mapSessionResponse(response: ApiSessionResponse): DesignSessionV
     reasoning: response.current_design.reasoning || [],
     explanationText: response.explanation?.explanation || null,
     intentLabel: response.intent?.intent || null,
+    mustHaves: response.current_design.must_haves || [],
   }
 }
 
