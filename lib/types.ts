@@ -146,4 +146,5 @@ export interface DesignSessionView {
   reasoning: string[]
   explanationText?: string | null
   intentLabel?: string | null
+  mustHaves: string[]
 }
